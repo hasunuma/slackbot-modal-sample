@@ -1,0 +1,31 @@
+{
+	"blocks": [
+		{
+			"type": "input",
+                        "block_id": "title",
+			"element": {
+				"type": "plain_text_input",
+				"action_id": "plain_text_input-action"
+			},
+			"label": {
+				"type": "plain_text",
+				"text": "タイトル",
+				"emoji": true
+			}
+		},
+		{
+			"type": "input",
+                        "block_id": "content",
+			"element": {
+				"type": "plain_text_input",
+				"multiline": true,
+				"action_id": "plain_text_input-action"
+			},
+			"label": {
+				"type": "plain_text",
+				"text": "内容",
+				"emoji": true
+			}
+		}
+	]
+}
